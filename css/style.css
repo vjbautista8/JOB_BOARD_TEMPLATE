@@ -910,12 +910,12 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/235. Job board/HTML/scss/_header.scss */
 .header-area {
-  left: 0;
-  right: 0;
+  /* left: 0;
+  right: 0; */
   width: 100%;
-  top: 0;
+  /* top: 0;
   z-index: 9;
-  position: absolute;
+  position: absolute; */
 }
 
 @media (max-width: 767px) {
@@ -1179,7 +1179,7 @@ h3 {
 
 /* line 176, ../../Arafath/CL/December/235. Job board/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  /* color: #fff; */
+  color: #fff;
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 500;
