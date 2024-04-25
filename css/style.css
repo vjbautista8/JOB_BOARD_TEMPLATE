@@ -838,7 +838,7 @@ h3 {
 
 /* line 44, ../../Arafath/CL/December/235. Job board/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav .slicknav_btn {
-  background-color: transparent;
+  /* background-color: transparent; */
   cursor: pointer;
   margin-bottom: 10px;
   margin-top: -40px;

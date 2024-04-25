@@ -34,6 +34,28 @@
         .header-area .main-header-area .main-menu ul li a {
             color: black;
         }
+
+        .header-area {
+            position: sticky;
+        }
+
+        .job_listing_area {
+            padding-top: 1rem;
+        }
+
+        .job_listing_area .job_lists {
+            margin-top: 1rem;
+        }
+
+        @media (min-width: 1200px) and (max-width: 1500px) {
+            .header-area .main-header-area .main-menu ul li a {
+                font-size: 16px;
+            }
+        }
+
+        .slicknav_btn {
+            background-color: red !important;
+        }
     </style>
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -42,7 +64,7 @@
     <!-- header-start -->
     <header>
         <div class="header-area">
-            <div id="sticky-header-not" class="main-header-area">
+            <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid ">
                     <div class="header_bottom_border">
                         <div class="row align-items-center">
